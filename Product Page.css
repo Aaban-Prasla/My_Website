@@ -1,0 +1,91 @@
+body{
+    background: url("Pictures/Backgroud.jpg");
+    background-size: 110%;
+    margin: auto;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+nav ol {
+    float: right;
+}
+
+nav ol li {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+nav ol li a {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    padding-inline: 2rem;
+}
+
+.Store_Logo {
+    float: left;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.Header_bar {
+    background: #95e5bc;
+    height: 130px;
+    width: 100%;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Products_Page {
+    text-align: center;
+    font-size: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.Main_Picture {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.All_Product_Cards_Combined {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 4rem;
+}
+
+.Main_Picture_Text p {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 3rem 2rem 6rem;
+}
+
+.All_Product_Cards_Combined .Individual_Product_Card {
+    text-align: left;
+    font-size: 20px;
+    background-color: #95e5bc;
+    margin: auto;
+    max-width: 325px;
+    border-radius: 15px;
+    padding: 0 10px 15px;
+}
+
+.All_Product_Cards_Combined img {
+    height: 217px;
+    width: 325px;
+    border-radius: 15px;
+}
